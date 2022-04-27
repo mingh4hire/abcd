@@ -16,7 +16,7 @@ builder.Services.AddAuthorization(o =>
 builder.Services.AddSingleton<IAuthorizationHandler, SimpHandler>();
 var app = builder.Build();
 
-
+//test
 
 
 // Configure the HTTP request pipeline.
